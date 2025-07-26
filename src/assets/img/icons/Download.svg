@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#1F2D3D" stroke-width="2" fill="none">
+    <!-- Zahnrad -->
+    <circle cx="32" cy="32" r="12"></circle>
+    <path d="M32 8v6M32 50v6M8 32h6M50 32h6M16.22 16.22l4.24 4.24M43.54 43.54l4.24 4.24M16.22 47.78l4.24-4.24M43.54 20.46l4.24-4.24"></path>
+
+    <!-- Checkmark -->
+    <path d="M24 34l4 4 12-12" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+</svg>

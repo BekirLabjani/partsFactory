@@ -1,0 +1,72 @@
+.top-deals {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #1f2d3d;
+  }
+
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    .product-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      width: 280px;
+      text-align: left;
+      transition: all 0.3s ease;
+      transform: translateY(0);
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+        transition: transform 0.3s ease;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        color: #1f2d3d;
+        margin: 0.5rem 0;
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: #555;
+        margin: 0.25rem 0;
+      }
+
+      button {
+        margin-top: 1rem;
+        background-color: #ff6a00;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: darken(#ff6a00, 10%);
+        }
+      }
+    }
+
+  }
+}
